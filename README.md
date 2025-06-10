@@ -26,8 +26,8 @@ doc-qa-backend/
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/your-username/doc-qa-backend.git
-cd doc-qa-backend
+git clone https://github.com/cryiiing/rag-backend.git
+cd rag-backend
 ```
 
 ### 2. 创建并激活虚拟环境
@@ -36,8 +36,8 @@ cd doc-qa-backend
 
 ```bash
 # 使用 conda
-conda create -n docqa python=3.11 -y
-conda activate docqa
+conda create -n env_name python=3.11 -y
+conda activate env_name
 ```
 
 ### 3. 安装依赖
@@ -47,14 +47,7 @@ pip install -r requirements.txt
 ```
 
 ### 4. 配置环境变量
-
-复制 `.env.example` 文件并重命名为 `.env`。
-
-```bash
-cp .env.example .env
-```
-
-然后，编辑 `.env` 文件，填入你自己的 API 密钥。
+编辑 `.env` 文件，填入你自己的 API 密钥。
 
 ```env
 DASHSCOPE_API_KEY="sk-your-dashscope-key"
