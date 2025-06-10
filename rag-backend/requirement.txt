@@ -1,0 +1,17 @@
+# Core LangChain and AI models
+langchain
+langchain-core
+langchain-text-splitters
+langchain-community
+langchain-deepseek
+dashscope
+
+# Vectorstore
+faiss-cpu
+
+# Document Parsers
+pypdf2
+python-docx
+
+# For loading environment variables
+python-dotenv
