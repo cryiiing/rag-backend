@@ -128,10 +128,8 @@ if __name__ == "__main__":
     # 这是一个示例，演示如何独立运行这个后端逻辑
 
     # 1. 定义你的文件路径
-    file_paths = [
-        "D:/AIProject/jvke/day11-demo/pdf-search/resource/chatgpt.pdf",
-        "D:/AIProject/jvke/day11-demo/pdf-search/resource/knowledge.txt",
-        "D:/AIProject/jvke/day11-demo/pdf-search/resource/labor-law.pdf"
+    file_paths = ["",
+                  ""
     ]
 
     print("--- 1. Reading and parsing documents ---")
